@@ -58,7 +58,7 @@ const Projects = () => {
             </div>
             <div className="bg-muted/30 rounded-lg p-4 w-full md:w-1/3 text-center shadow-sm">
               <p className="font-medium text-foreground mb-1">For My Community</p>
-              <p>Solutions for local issues — safety, accountability, and tech awareness in our neighborhood.</p>
+              <p>Solutions for local issues like safety, accountability, and tech awareness in our neighborhood.</p>
             </div>
             <div className="bg-muted/30 rounded-lg p-4 w-full md:w-1/3 text-center shadow-sm">
               <p className="font-medium text-foreground mb-1">For My Workplace</p>
