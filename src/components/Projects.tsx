@@ -48,7 +48,7 @@ const Projects = () => {
             My <span className="text-gradient">Projects</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-6">
-            I believe that meaningful technology starts with solving real problems. These projects showcase my ability to design practical solutions in life, community, and work:
+            I believe that meaningful technology starts with solving real problems. These projects showcase my ability to design practical solutions:
           </p>
 
           <div className="flex flex-col md:flex-row justify-center gap-6 text-sm text-muted-foreground mb-12">
