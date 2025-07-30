@@ -9,8 +9,6 @@ const Mission = () => {
                 Why I Created This Website
               </h3>
               <p className="text-muted-foreground leading-relaxed text-justify">
-                I built this portfolio to showcase my projects and support my goal of lifting my probationary status. It 
-                highlights the works I've done for <strong>myself</strong>, <strong>my community</strong>, and <strong>my workplace</strong>, each project a reflection of my commitment to learning 
                 I built this portfolio to showcase my projects and support my goal of lifting my probationary status. It highlights the works I've done for <strong>myself</strong>, <strong>my community</strong>, and <strong>my workplace</strong>, each project a reflection of my commitment to learning 
                 and applying computer science meaningfully.
               </p>

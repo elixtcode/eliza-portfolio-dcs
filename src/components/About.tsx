@@ -23,8 +23,8 @@ const About = () => {
     },
     {
       year: "2025 (Ongoing)",
-      event: "Certificates & Tech Transition",
-      detail: "Pursuing self-study in AI (ChatGPT, Gemini), Python scripting, and Web Development while transitioning into tech formally.",
+      event: "Tech Transition",
+      detail: "Actively building automations and web applications using Python, React, and Tailwind CSS while pursuing formal CS studies at UPOU to deepen and expand my impact.",
     },
   ];
 
@@ -43,21 +43,20 @@ const About = () => {
             <h3 className="text-2xl font-bold flex items-center gap-2">
               📖 Ella and the Second Sunrise
             </h3>
-            <p className="italic text-gray-600">
-              "A parallel story that mirrors my owngit push origin main
- resilience, reinvention, and rediscovery through tech."
+            <p className="italic text-muted-foreground">
+              "A parallel story that mirrors my own resilience, reinvention, and rediscovery through tech."
             </p>
-            <p className="text-gray-700">
+            <p className="text-foreground">
               This digitally illustrated children's story was created using <strong>Sora AI</strong> and <strong>ChatGPT</strong>, inspired by my journey
               towards pursuing a long-held dream: earning a formal degree in Computer Science through the <strong>Diploma in Computer Science (DCS)</strong> at the <strong>University of the Philippines Open University</strong>.
             </p>
-            <p className="text-gray-700">
+            <p className="text-foreground">
               It was sparked by a photo of me standing in front of the <strong>Oblation</strong> the day before the <strong>UPOU Commencement Rites</strong>.
             </p>
-            <p className="text-gray-800 italic font-medium">
-              Ella and the Second Sunrise reflects my belief that it's never too late to begin again especially when you're choosing the path that's always been in your heart.
+            <p className="italic font-medium text-foreground">
+              Ella and the Second Sunrise reflects my belief that it's never too late to begin again — especially when you're choosing the path that's always been in your heart.
             </p>
-            <p className="text-sm text-gray-500 sm:hidden">
+            <p className="text-sm text-muted-foreground sm:hidden">
               Tap the image to read the full story.
             </p>
           </div>
@@ -71,13 +70,13 @@ const About = () => {
               alt="Ella and the Second Sunrise"
               className="w-full object-cover rounded-lg shadow-lg"
             />
-            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/70 text-white px-3 py-1 rounded text-sm font-medium">
+            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-background/80 text-foreground px-3 py-1 rounded text-sm font-medium">
               Tap to Read
             </div>
           </div>
         </div>
 
-        {/* Timeline and Focus Box Side-by-Side */}
+        {/* Timeline and Focus Box */}
         <div className="card-elevated p-8 hover-lift flex flex-col lg:flex-row gap-8">
           <div className="flex-1 space-y-4">
             <div className="flex items-center gap-3 mb-6">
@@ -86,21 +85,18 @@ const About = () => {
             </div>
             <p className="text-lg font-medium mb-4">Medicine → eCommerce → Tech</p>
             {timeline.map((item, index) => (
-  <div
-    key={index}
-    className="flex flex-col sm:flex-row sm:gap-4 sm:items-start mb-6"
-  >
-    <span className="text-primary font-mono text-sm sm:min-w-[120px] mb-1 sm:mb-0">
-      {item.year}
-    </span>
-    <div>
-      <p className="font-medium">{item.event}</p>
-      {item.detail && (
-        <p className="text-sm text-muted-foreground">{item.detail}</p>
-      )}
-    </div>
-  </div>
-))}
+              <div key={index} className="flex flex-col sm:flex-row sm:gap-4 sm:items-start mb-6">
+                <span className="text-primary font-mono text-sm sm:min-w-[120px] mb-1 sm:mb-0">
+                  {item.year}
+                </span>
+                <div>
+                  <p className="font-medium">{item.event}</p>
+                  {item.detail && (
+                    <p className="text-sm text-muted-foreground">{item.detail}</p>
+                  )}
+                </div>
+              </div>
+            ))}
           </div>
 
           <div className="flex-1 flex items-center justify-center">
@@ -110,9 +106,9 @@ const About = () => {
                 <div>
                   <p className="text-sm font-medium mb-2">Current Focus</p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Through detours, hardship, and reinvention, I've discovered technology as my anchor —
-                    a tool that fuels my creativity and resilience. Now, I'm formalizing that journey through the
-                    <strong> Diploma in Computer Science at UPOU</strong>, with a vision to help Filipino MSMEs digitize and thrive.
+                    Through detours, hardship, and reinvention, I've discovered technology as my anchor — a tool that fuels my creativity and resilience.
+                    Now, I'm formalizing that journey through the <strong>Diploma in Computer Science at UPOU</strong>,
+                    with a vision to help Filipino MSMEs digitize and thrive.
                   </p>
                 </div>
               </div>
@@ -130,10 +126,10 @@ const About = () => {
       {/* Flipbook Modal */}
       {isModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm">
-          <div className="bg-white rounded-xl shadow-xl max-w-4xl w-full relative">
+          <div className="bg-card rounded-xl shadow-xl max-w-4xl w-full relative">
             <button
               onClick={() => setIsModalOpen(false)}
-              className="absolute top-3 right-3 text-gray-500 hover:text-gray-700 text-xl font-bold"
+              className="absolute top-3 right-3 text-muted-foreground hover:text-foreground text-xl font-bold"
             >
               &times;
             </button>
