@@ -11,7 +11,7 @@ const Projects = () => {
       category: "For Myself",
       title: "Notion Zen Dashboard",
       description:
-        "A mobile-friendly web app built using React, TypeScript, and Tailwind CSS. It was scaffolded using an AI assistant solely to streamline the frontend styling and layout setup—saving time on UI polish while retaining full manual control of the logic and structure. The goal is to build an embeddable dashboard for Notion that tracks personal productivity metrics (e.g., focus time, time spent per task) in a visually appealing and responsive layout.",
+        "A mobile-friendly web app built using React, TypeScript, and Tailwind CSS. It was scaffolded using an AI assistant solely to streamline the frontend styling and layout setup saving time on UI polish while retaining full manual control of the logic and structure. The goal is to build an embeddable dashboard for Notion that tracks personal productivity metrics (e.g., focus time, time spent per task) in a visually appealing and responsive layout.",
       tech: ["React", "TypeScript", "Tailwind CSS", "Notion-Embeddable Design"],
       github: "https://github.com/elixtcode/notion-zen-dashboard",
       demo: "https://notion-zen-dashboard.lovable.app/",
@@ -48,7 +48,7 @@ const Projects = () => {
             My <span className="text-gradient">Projects</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-6">
-            I believe that meaningful technology starts with solving real problems. These projects reflect three key dimensions of my transition into tech:
+            I believe that meaningful technology starts with solving real problems. These projects showcase my ability to design practical solutions in life, community, and work:
           </p>
 
           <div className="flex flex-col md:flex-row justify-center gap-6 text-sm text-muted-foreground mb-12">

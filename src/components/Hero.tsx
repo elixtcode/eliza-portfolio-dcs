@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Hi, I am{" "}
+            Hi, I am {" "}
             <span className="text-gradient">Ruth Eliza</span>
             <br />
             and this is my {" "}
@@ -29,7 +29,7 @@ const Hero = () => {
             <Button
               size="lg"
               className="button-glow bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3"
-              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
             >
               View My Projects
             </Button>
@@ -72,7 +72,7 @@ const Hero = () => {
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-6 sm:bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-6 left-0 w-full flex justify-center animate-bounce">
           <ArrowDown className="h-6 w-6 text-muted-foreground" />
         </div>
       </div>

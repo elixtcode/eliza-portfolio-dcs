@@ -41,7 +41,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row gap-12 items-start mb-16">
           <div className="md:w-1/2 space-y-4">
             <h3 className="text-2xl font-bold flex items-center gap-2">
-              📖 Ella and the Second Sunrise
+              Ella and the Second Sunrise
             </h3>
             <p className="italic text-muted-foreground">
               "A parallel story that mirrors my own resilience, reinvention, and rediscovery through tech."
