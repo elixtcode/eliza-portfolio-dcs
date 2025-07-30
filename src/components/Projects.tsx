@@ -11,8 +11,8 @@ const Projects = () => {
       category: "For Myself",
       title: "Notion Zen Dashboard",
       description:
-        "A mobile-friendly web app built using React, TypeScript, and Tailwind CSS. It was scaffolded using the Lovable AI assistant to streamline frontend setup and styling. The goal is to build an embeddable dashboard for Notion that tracks personal productivity metrics (e.g., focus time, time spent per task) in a visually appealing and responsive layout.",
-      tech: ["React", "TypeScript", "Tailwind CSS", "Lovable AI"],
+        "A mobile-friendly web app built using React, TypeScript, and Tailwind CSS. It was scaffolded using an AI assistant solely to streamline the frontend styling and layout setup—saving time on UI polish while retaining full manual control of the logic and structure. The goal is to build an embeddable dashboard for Notion that tracks personal productivity metrics (e.g., focus time, time spent per task) in a visually appealing and responsive layout.",
+      tech: ["React", "TypeScript", "Tailwind CSS", "Notion-Embeddable Design"],
       github: "https://github.com/elixtcode/notion-zen-dashboard",
       demo: "https://notion-zen-dashboard.lovable.app/",
       gradient: "from-blue-500/10 to-purple-500/10",
@@ -21,7 +21,7 @@ const Projects = () => {
       category: "For My Community",
       title: "Village East App",
       description:
-        "A security-focused village management app inspired by recent incidents in our area. The app uses QR codes to log and track entries, replacing the current manual ID-check system. It's designed to securely process sensitive visitor data and improve real-time accountability, with features for tracking association dues and resident activity logs.",
+        "A prototype security-focused village management app inspired by recent incidents in our area. The app uses QR codes to log and track entries, replacing the current manual ID-check system. It's designed to securely process sensitive visitor data and improve real-time accountability, with features for tracking association dues and resident activity logs.",
       tech: ["React", "TypeScript", "QR Code Integration", "Security Focus"],
       github: "https://github.com/elixtcode/senior-village-connect",
       demo: "https://senior-village-connect.lovable.app/",
@@ -34,7 +34,7 @@ const Projects = () => {
         "Automates the manual task of filling in Shopify import templates using raw vendor price lists. Built with Python to read and clean Excel files from vendors, extract relevant product attributes like SKU, dimensions, pricing, and output complete Shopify-ready CSV files.",
       tech: ["Python", "Excel Processing", "Data Automation", "Shopify API"],
       outcome:
-        "A task that previously took weeks of manual work is now completed in minutes with 2,377 rows processed automatically.",
+        "A task that previously took weeks of manual work is now completed in minutes with 2,377 rows processed automatically in this example.",
       hasPreviewImage: true,
       gradient: "from-orange-500/10 to-red-500/10",
     },
@@ -152,7 +152,7 @@ const Projects = () => {
                           View Code Preview
                         </Button>
                         <p className="text-xs text-muted-foreground italic">
-                          &lt;&gt; Built for internal use — source code is proprietary
+                          &lt;&gt; Built for internal use — source code is proprietary. <p>Output data contains sensitive business information and is not included in this portfolio.</p>
                         </p>
                       </div>
                     )}

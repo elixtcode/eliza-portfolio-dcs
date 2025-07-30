@@ -39,7 +39,7 @@ const Certifications = () => {
       title: "Digital Marketing for Entrepreneurs",
       provider: "University of the Philippines Open University (UPOU)",
       date: "Jun 2025",
-      description: "Built and pitched a full digital marketing plan for a real business. Covered social media marketing, customer journey and branding.",      distinction: "Highest Distinction",
+      description: "Built and pitched a full digital marketing plan for a real business. Covered core topics such as SEO, customer journey and branding.",      distinction: "Highest Distinction",
       grade: "103.1 / 100",
       type: "certification",
       highlight: true,
@@ -143,7 +143,7 @@ const Certifications = () => {
           {/* Link to external portfolio */}
           <div className="text-center mt-12">
             <p className="text-muted-foreground mb-4">
-              This linked page is one of my early prototype websites created with just HTML and CSS where I first documented my learning journey and certificates:
+              This simple HTML/CSS page is one of my earliest hands-on projects. A reminder of how far I’ve come in building real-world, functional applications today:
             </p>
             <a 
               href="https://elizaislearning.github.io/eliza-pinkgrey/"
