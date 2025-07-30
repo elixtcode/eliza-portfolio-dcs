@@ -44,7 +44,8 @@ const About = () => {
               📖 Ella and the Second Sunrise
             </h3>
             <p className="italic text-gray-600">
-              "A parallel story that mirrors my own resilience, reinvention, and rediscovery through tech."
+              "A parallel story that mirrors my owngit push origin main
+ resilience, reinvention, and rediscovery through tech."
             </p>
             <p className="text-gray-700">
               This digitally illustrated children's story was created using <strong>Sora AI</strong> and <strong>ChatGPT</strong>, inspired by my journey
