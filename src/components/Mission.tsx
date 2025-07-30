@@ -16,7 +16,6 @@ const Mission = () => {
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4 text-justify">
                 At the core of it all is a desire to learn, grow, and contribute not just to my own development, 
-                but to the digital progress of my community and ultimately, our country.
                 but to the digital progress of my community and ultimately, our country where no <em>Juan</em> gets left behind.
               </p>
             </div>
@@ -34,7 +33,6 @@ const Mission = () => {
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4 text-justify">
                 Through the UPOU Diploma in Computer Science, I aim to bridge the gap for small businesses, 
-                empowering them to compete in a global, AI-driven economy. <em>Filipinos deserve better. </em>
                 empowering them to compete in a global, AI-driven economy. <em>Filipinos deserve better. </em>
               </p>
               <p className="font-medium text-foreground mt-6 text-center">
